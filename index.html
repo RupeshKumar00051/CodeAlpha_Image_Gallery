@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="gallery-container">
+        <h1>Image Gallery</h1>
+        
+        <div class="main-image-container">
+            <img id="main-image" src="images/image1.jpg" alt="Gallery Image">
+            <div class="image-counter">
+                <span id="current-image">1</span> / <span id="total-images">5</span>
+            </div>
+        </div>
+        
+        <div class="thumbnail-container">
+            <div class="thumbnail active" data-index="0">
+                <img src="C:\Users\rupes\OneDrive\Documents\Image Gallery\desktop.jpg" alt="Thumbnail 1">
+            </div>
+            <div class="thumbnail" data-index="1">
+                <img src="C:\Users\rupes\OneDrive\Documents\Image Gallery\IMG_20220213_085931_502 - Copy.jpg" alt="Thumbnail 2">
+            </div>
+            <div class="thumbnail" data-index="2">
+                <img src="C:\Users\rupes\OneDrive\Documents\Image Gallery\laptop.jpg" alt="Thumbnail 3">
+            </div>
+            <div class="thumbnail" data-index="3">
+                <img src="C:\Users\rupes\OneDrive\Documents\Image Gallery\pexels-chevanon-1108099.jpg" alt="Thumbnail 4">
+            </div>
+            <div class="thumbnail" data-index="4">
+                <img src="C:\Users\rupes\OneDrive\Documents\Image Gallery\pexels-danne-516541.jpg" alt="Thumbnail 5">
+            </div>
+        </div>
+        
+        <div class="navigation-buttons">
+            <button id="prev-btn">Previous</button>
+            <button id="next-btn">Next</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
